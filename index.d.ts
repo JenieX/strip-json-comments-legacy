@@ -24,7 +24,7 @@ It will replace single-line comments `//` and multi-line comments `/**\/` with w
 
 @example
 ```
-import stripJsonComments from 'strip-json-comments';
+const { stripJsonComments } = require('strip-json-comments');
 
 const json = `{
 	// Rainbows
@@ -35,7 +35,7 @@ JSON.parse(stripJsonComments(json));
 //=> {unicorn: 'cake'}
 ```
 */
-export default function stripJsonComments(
+export function stripJsonComments(
 	jsonString: string,
 	options?: Options
 ): string;

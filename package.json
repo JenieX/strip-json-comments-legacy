@@ -1,5 +1,5 @@
 {
-	"name": "strip-json-comments",
+	"name": "strip-json-comments-legacy",
 	"version": "5.0.2",
 	"description": "Strip comments from JSON. Lets you use comments in your JSON files!",
 	"license": "MIT",
@@ -10,7 +10,7 @@
 		"email": "sindresorhus@gmail.com",
 		"url": "https://sindresorhus.com"
 	},
-	"type": "module",
+	"type": "commonjs",
 	"exports": "./index.js",
 	"types": "./index.d.ts",
 	"sideEffects": false,
